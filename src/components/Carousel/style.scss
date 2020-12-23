@@ -1,0 +1,28 @@
+$height: 200px;
+
+.carousel {
+  position: relative;
+  margin: auto;
+  width: 100vw;
+  height: $height;
+  overflow-x: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+
+.carousel-item-container {
+  display: inline-block;
+}
+
+.carousel-item {
+  display: inline-block;
+  height: $height;
+  line-height: $height;
+  width: 480px;
+  margin: auto 16px;
+}
+
+button {
+  margin: 8px;
+}
